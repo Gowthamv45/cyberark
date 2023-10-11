@@ -1,0 +1,21 @@
+---
+
+# pvwa git repo
+- src: https://github.com/cyberark/pvwa.git
+  scm: git
+  version: v12.2
+
+# cpm git repo
+- src: https://github.com/cyberark/cpm.git
+  scm: git
+  version: v12.2
+
+# psm git repo
+- src: https://github.com/cyberark/psm.git
+  scm: git
+  version: v12.2
+
+# psmp git repo
+- src: https://github.com/cyberark/psmp-deploy-ansible-role.git
+  scm: git
+  #version: v12.0
