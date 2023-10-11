@@ -1,7 +1,0 @@
----
-
-- name: Register pvwa
-  include_role:
-    name: pvwa
-  vars:
-    - pvwa_registration: true
