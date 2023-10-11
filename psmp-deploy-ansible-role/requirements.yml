@@ -1,0 +1,4 @@
+# psmp git repo
+- src: https://github.com/cyberark/psmp-deploy-ansible-role.git
+  scm: git
+  #version: v12.2
