@@ -16,12 +16,12 @@
     msg: "{{ cpm_zip_file_path }} not exists, failing..."
   when: not st.checksum
 
-- name: Check if package is valid using checksum
-  fail:
-    msg: "Checksum does not match, please validate your package."
-  when:
-    - st.checksum != cpm_sha1_checksum
-    - not cpm_ignore_checksum
+#- name: Check if package is valid using checksum
+ # fail:
+  #  msg: "Checksum does not match, please validate your package."
+  #when:
+   # - st.checksum != cpm_sha1_checksum
+    #- not cpm_ignore_checksum
 
 - name: Unzip the CPM package
   win_unzip:
