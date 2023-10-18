@@ -5,7 +5,7 @@
 # Add here list of hosts or ip adresses of pvwa dedicated machines
 # pvwa01.example.com
 # pvwa02.example.com
-#10.0.1.6
+10.0.1.12
 
 
 [cpm]
@@ -25,7 +25,7 @@
 # Add here list of hosts or ip adresses of psmp dedicated machines
 # psmp01.example.com
 # psmp02.example.com
-10.0.1.11
+#10.0.1.11
 
 # DO NOT EDIT BELOW!!!
 [windows:children]
